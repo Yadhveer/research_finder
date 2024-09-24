@@ -32,8 +32,8 @@ def search_faculty(faculty_list, keyword_list, serpapi_api_key):
     return faculty_with_keywords
 
 
-faculty_names = ["PUT IN THE LIST OF FACULTY YOU WANT TO SEARCH FROM HERE"]
-keywords = ["TYPE IN KEYWORDS THAT YOU WANT YOUR FACULTY MEMBERS TO HAVE RESEARCH PAPERS IN"]  
+faculty_names = ["PUT IN THE LIST OF FACULTY YOU WANT TO SEARCH FROM HERE"]                                #Eg: [John Doe, Jane Smith, Tony]
+keywords = ["TYPE IN KEYWORDS THAT YOU WANT YOUR FACULTY MEMBERS TO HAVE RESEARCH PAPERS IN"]              #Eg: [Cybersecurity, Privacy, Forensics]
 serpapi_api_key = "YOUR_SECRET_API_KEY"  # Get your key from SerpAPI
 
 result = search_faculty(faculty_names, keywords, serpapi_api_key)
