@@ -31,63 +31,10 @@ def search_faculty(faculty_list, keyword_list, serpapi_api_key):
 
     return faculty_with_keywords
 
-# Example usage:
-faculty_names = ["GEETHA MARY A", "SENTHIL KUMAR K", "PRAKASH G", "SIVA SHANMUGAM G","MURUGAN K", "MADIAJAGAN M", "AJU D", "DILIPKUMAR S","THAMIZHARASAN S", 
-    "NITHYA N S", 
-    "SAIRABANU J", 
-    "KUMARESAN A", 
-    "PRAKASH G", 
-    "SATISH C.J", 
-    "TAMIZHSELVI SP", 
-    "RAMANI S", 
-    "DILIPKUMAR S", 
-    "ANURADHA D", 
-    "VIMALA DEVI K", 
-    "BASKARAN P", 
-    "SIVAPRAKASH S", 
-    "MURUGAN K", 
-    "JAYAKUMAR K", 
-    "MARY MEKALA A", 
-    "MANIKANDAN K", 
-    "JEEVANAJYOTHI PUJARI", 
-    "NAGA RAJA G", 
-    "PAVITHRA M", 
-    "SUNIL KUMAR", 
-    "ROHINI S", 
-    "THANGARAMYA K", 
-    "S M FAROOQ", 
-    "UMAMAHESWARI M", 
-    "MURUGAN K", 
-    "BALAJI N", 
-    "SIVA SANKARI S", 
-    "MANIKANDAN G", 
-    "MARY MEKALA A", 
-    "SREETHAR S", 
-    "PRAKASH G", 
-    "JENICKA S", 
-    "RAMANI S", 
-    "KATARI BALAKRISHNA", 
-    "SWETHA N G", 
-    "NIVITHA K", 
-    "ILAYARAJA V", 
-    "THAMIZHARASAN S", 
-    "MARIAPPAN R", 
-    "LATHA REDDY N", 
-    "KOVENDAN A.K.P", 
-    "DEEPIKAA S", 
-    "NIVETHITHA K",
-    "ARUNKUMAR A",
-    "DINESH R",
-    "PRIYA V",
-    "RAMYA.G",
-    "CHARANYA R",
-    "SARITHA MURALI",
-    "MOHANA PRIYA P",
-    "SOMASUNDARAM S K",
-    "CHANDRA MOHAN B",
-    "PARTHASARATHY G"]  # Replace with your list of faculty names
-keywords = ["cybersecurity", "fuzzing", "pentesting", "malware", "data privacy", "cryptography", "network security" ]  # Your keywords
-serpapi_api_key = "63768389163be52acda96725543d607a3ee2b0fdbf5f4956a1407dd28df38626"  # Get your key from SerpAPI
+
+faculty_names = ["PUT IN THE LIST OF FACULTY YOU WANT TO SEARCH FROM HERE"]
+keywords = ["TYPE IN KEYWORDS THAT YOU WANT YOUR FACULTY MEMBERS TO HAVE RESEARCH PAPERS IN"]  
+serpapi_api_key = "YOUR_SECRET_API_KEY"  # Get your key from SerpAPI
 
 result = search_faculty(faculty_names, keywords, serpapi_api_key)
 
